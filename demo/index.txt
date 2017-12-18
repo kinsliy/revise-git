@@ -1,0 +1,35 @@
+
+1：
+新建一个文件夹，然后 git init 
+
+2:
+ git config user.name 'yourname'
+
+ git config user.email 'youremail'
+
+ 上面配置是本地仓库的用户,也可以配置全局的用户，
+
+ git config --global user.name 'yourname'
+
+ git config --global user.email 'youremail'
+
+3:
+ 新建一个文件以便提交，这里新建了index.js
+
+4:
+ git add index.js
+
+ 当前文件夹git分为三个区，你的文件属于工作区，
+
+ git add index.js 之后会在缓存区保留，当前index.js的状态，
+
+5：
+   git commit -m 'your msg'
+
+   git commit 提交 缓存区的状态，
+   'your msg' 你提交时想表达的，比如 add a new feature,新添加了一个功能
+6：
+ 
+ 
+
+ 
