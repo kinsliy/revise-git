@@ -21,6 +21,12 @@
 4:
  git add index.js
 
+ git add *  是添加当前文件夹所有的文件，
+
+ 如果你有不想被add的文件可以新建一个 .gitignore 的文件，
+
+ 里面写上你不想被add的文件 ，like ： *.html
+
  当前文件夹git分为三个区，你的文件属于工作区，
 
  git add index.js 之后会在缓存区保留，当前index.js的状态，

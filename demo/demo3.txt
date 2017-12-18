@@ -18,6 +18,7 @@
 
  like : git checkout master，我们就回到了master这个分支上；
 
+ 新建分支并切换到新分支 可以用  git checkout -b '新分支'
 
  2：git push origin kinsliy 
 

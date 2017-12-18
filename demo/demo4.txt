@@ -19,4 +19,17 @@
 
      默认合并是 merge，你可以用 git pull --rebase
 
-     来进行 rebase 合并。 
+     来进行 rebase 合并。
+
+3：
+  有时候需要查看两个分支的不同可以用  git diff 分支1 分支2 
+
+  就可以查看 分支1和分支2 之间的区别
+
+4：
+   查看 当前是否有远程仓库  git remote -v
+
+   我们当然也可以删除远程仓库，git remote rm  name  
+
+   以及 重命名 git remote rename oldname newname
+
