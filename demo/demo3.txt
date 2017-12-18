@@ -15,4 +15,6 @@
   切换分支 是用 git checkout '分支名字';
 
  like : git checkout master，我们就回到了master这个分支上；
- 
+
+
+ 2：
