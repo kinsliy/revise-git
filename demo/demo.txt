@@ -1,4 +1,6 @@
 
+一：连接远程仓库
+
 1：
 新建一个文件夹，然后 git init 
 
@@ -24,12 +26,39 @@
  git add index.js 之后会在缓存区保留，当前index.js的状态，
 
 5：
+  
    git commit -m 'your msg'
 
    git commit 提交 缓存区的状态，
    'your msg' 你提交时想表达的，比如 add a new feature,新添加了一个功能
 6：
+   连接 远程仓库，
+
+    git remote add origin 'yourgitrepository'
+    
+    这里的 origin 是你远程仓库的名字，可以修改。
+
+7，
+  把本地的的 push到你的远程仓库；
+
+  git push -u origin master 
+
+  origin 就是上面远程仓库的名字，master 就是当前分支，
+
+  新建一个git 仓库 默认是master 分支，也只有这个分支。
  
- 
+ 8：
+   到此 你就可以把你的代码 提交到你的github了，
+
+   基本上 git add  ,git commit git push,是最常用到的。
+
+
+
+   
+
+
+
+
+
 
  
