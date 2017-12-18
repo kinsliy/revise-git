@@ -37,6 +37,13 @@
 
    合并分支有两种： git merge 和 git rebase
 
+   具体 git merge 和 git rebase 有什么区别？
+
+   有兴趣搜一下，看个图片就很容易理解。现在你用哪个合并
+
+   分支都是可以得。
+
+   
    
 
  
