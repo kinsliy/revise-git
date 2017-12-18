@@ -1,0 +1,18 @@
+三: 多分支
+
+1：新建一个仓库 默认是只有master这个分支的，
+
+  有时候我们想着不去更改master上面的代码，我们可以新建
+
+  一个分支，
+
+  git branch '分支的名字'
+
+  我们就新建了一个新的分支了，可以用 git branch 查看总共
+
+  有多少分支？ 同时*所在的就是当前分支。
+
+  切换分支 是用 git checkout '分支名字';
+
+ like : git checkout master，我们就回到了master这个分支上；
+ 
