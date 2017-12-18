@@ -8,6 +8,8 @@
 
   git branch '分支的名字'
 
+  git branch kinsliy
+
   我们就新建了一个新的分支了，可以用 git branch 查看总共
 
   有多少分支？ 同时*所在的就是当前分支。
@@ -17,4 +19,24 @@
  like : git checkout master，我们就回到了master这个分支上；
 
 
- 2：
+ 2：git push origin kinsliy 
+
+   在我们在kinsliy分支上修改了什么，push的时候记得 改成 kinsliy；
+
+   如果你 推送到 github,你的仓库会有merge的请求。
+
+3：
+   删除分支是用 git branch -d '分支名字'
+
+   很简单
+
+4：
+   我们在不同的分支上修改代码，我们有时候是需要合并两个
+
+   分支上的代码的，
+
+   合并分支有两种： git merge 和 git rebase
+
+   
+
+ 
